@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Shell Script') {
+    stage('Shell') {
       parallel {
         stage('Shell Script') {
           steps {
